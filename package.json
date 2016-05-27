@@ -1,0 +1,6 @@
+{
+  "private": true,
+  "devDependencies": {
+    "mustache": "^2.2.1"
+  }
+}
