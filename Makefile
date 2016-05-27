@@ -1,7 +1,7 @@
 all: notice.docx notice.pdf
 
-notice.docx: notice.complete_md
-	pandoc -f markdown -t docx -o $@ $<
+notice.docx: notice.complete_md reference.docx
+	pandoc -f markdown -t docx -o $@ --reference-docx reference.docx $<
 
 notice.pdf: notice.docx
 	doc2pdf $<

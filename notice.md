@@ -1,4 +1,6 @@
-# Notice to Stockholders Under Delaware General Corporation Law 228(e)
+---
+title: Notice to Stockholders Under Delaware General Corporation Law 228(e)
+---
 
 {{Date}}
 
